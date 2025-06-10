@@ -1,2 +1,6 @@
-from mem-cong import hello_cong
-from mem-duy import hello_duy
+from members.hello_Cong import hello_Cong
+
+def main():
+  hello_Cong()
+if __name__ == "__main__":
+    main()
